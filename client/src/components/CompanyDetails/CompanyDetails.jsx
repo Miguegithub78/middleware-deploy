@@ -17,7 +17,7 @@ export default function CompanyDetail() {
   }, []);
 
   const detalles = async () => {
-    const data = await fetch(`http://localhost:3001/companies/${id}`);
+    const data = await fetch(`/companies/${id}`);
 
     const companies = await data.json();
 

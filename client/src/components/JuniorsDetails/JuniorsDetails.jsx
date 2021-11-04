@@ -17,7 +17,7 @@ export default function JuniorsDetail() {
 	}, []);
 
 	const detalles = async () => {
-		const data = await fetch(`http://localhost:3001/juniors/${id}`);
+		const data = await fetch(`/juniors/${id}`);
 
 		const juniors = await data.json();
 
