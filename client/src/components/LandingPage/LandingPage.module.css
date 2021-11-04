@@ -1,0 +1,15 @@
+h1{
+    font-family: 'Candal', sans-serif; 
+    font-size: 70px;
+    
+}
+h5{
+    font-size: 25px;
+    font-family: 'Arsenal', sans-serif;
+    margin-bottom: 20px;
+}
+
+.loginImage{
+    width: auto;
+    height: 100vh;
+}
